@@ -25,7 +25,6 @@ export class Wallet extends Component {
     }
 
     render() {
-        console.log('props', this.props)
         return (
             <div>
                 <h3 className="balance">Wallet balance: {this.props.balance}</h3>
